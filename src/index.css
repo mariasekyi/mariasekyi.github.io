@@ -3,7 +3,7 @@
     --font-body: 'Noto Sans', sans-serif;
 }
 
-:body{
+body{
     font-family: var(--font-body);
     margin: 0;
 }

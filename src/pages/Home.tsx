@@ -12,12 +12,11 @@ function Home() {
   return (
     <div className={styles.container}>
       <aside className={styles.sidebar}>
-        <h1 className="styles.name">Maria Sekyi</h1>
-        <p className="styles.title">Creative Technologist</p>
-        <p className="styles.bio">background and what drives my work, start thinking about tags</p>
-        <p className="styles.bio">descriptions about general process and information about projects</p>
-        <p className="styles.bio">descriptions about more about process and interests</p>
-        <p>Sidebar content here</p>
+        <h1 className={styles.name}>Maria Sekyi</h1>
+        <p className={styles.title}>Creative Technologist</p>
+        <p className={styles.bio}>background and what drives my work, start thinking about tags</p>
+        <p className={styles.bio}>descriptions about general process and information about projects</p>
+        <p className={styles.bio}>descriptions about more about process and interests</p>
       </aside>
       <main className={styles.content}>
           <div className={styles.grid}>
